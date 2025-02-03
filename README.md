@@ -10,19 +10,19 @@
 🔒 Secure API key management
 📝 Detailed logging for troubleshooting
 
-Requirements
+# Requirements
 
 PHP 7.4 or higher
 WordPress 5.7 or higher
 Composer for dependency management
 Valid Flux A.I. API key
 
-Installation
+# Installation
 
 Clone the repository into your WordPress plugins directory:
 
 bashCopycd wp-content/plugins
-git clone https://github.com/your-username/flux-ai-image-generator.git
+git clone https://github.com/omoh128/ai-image-generator
 
 Install dependencies using Composer:
 
@@ -32,7 +32,7 @@ composer install
 Activate the plugin through WordPress admin panel.
 Configure your Flux A.I. API key in Settings → Flux A.I. Images.
 
-Configuration
+# Configuration
 
 Obtain your API key from Flux A.I. Dashboard
 Navigate to WordPress Admin → Flux A.I. Images
@@ -60,8 +60,10 @@ $args = [
 
 $image_url = $flux_service->generateImage($args);
 Development
-Project Structure
-Copyflux-ai-image-generator/
+
+# Project Structure
+
+Copy ai-image-generator/
 ├── src/
 │   ├── Admin/
 │   │   └── SettingsPage.php
